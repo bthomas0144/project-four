@@ -26,3 +26,8 @@ body {
 .search {
 	margin-top: 2em;
 }
+
+
+.lb-nav a.lb-prev, .lb-nav a.lb-next {
+  opacity: 1;
+}
