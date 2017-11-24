@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="normalize.css">
+<link rel="stylesheet" href="lightbox-plugin/lightcase-2.4.0/src/css/lightcase.css">
+<link rel="stylesheet" href="styles.css">
+<title>Interactive photo gallery</title>
+</head>
+
+<body>
+	<div class="bar">
+		<input id="search" name="search" placeholder="Start typing here" type="text" data-toggle="hideseek" data-list=".list">
+	</div>
+	
+	<ul class="list">
+	
+	
+		<li>
+		<a href="photo_gallery_v3/photos/01.jpg" data-rel="lightcase:myCollection" title="Hay Bales"><img src="photo_gallery_v3/photos/thumbnails/01.jpg" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+		<p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>
+		</a>
+		</li>
+		
+		<li>
+		<a href="photo_gallery_v3/photos/02.jpg" data-rel="lightcase:myCollection" title="Lake"><img src="photo_gallery_v3/photos/thumbnails/02.jpg" alt="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+		<p>The lake was so calm today. We had a great view of the snow on the mountains from here.</p>
+		</a>
+		</li>
+		
+		<li>
+		<a href="photo_gallery_v3/photos/03.jpg" data-rel="lightcase:myCollection" title="Canyon"><img src="photo_gallery_v3/photos/thumbnails/03.jpg" alt="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+		<p>I hiked to the top of the mountain and got this picture of the canyon and trees below.</p>
+		</a>
+		</li>
+		
+		<li>
+		<a href="photo_gallery_v3/photos/04.jpg" data-rel="lightcase:myCollection" title="Iceberg"><img src="photo_gallery_v3/photos/thumbnails/04.jpg" alt="It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
+		<p>It was amazing to see an iceberg up close, it was so cold but didn’t snow today.</p>
+		</a>
+		</li>
+		
+		
+
+		
+		
+		<li>
+		<a href="photo_gallery_v3/photos/05.jpg" data-rel="lightcase:myCollection" title="Desert"><img src="photo_gallery_v3/photos/thumbnails/05.jpg" alt="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+		<p>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</p>	
+		</a>
+		</li>
+		
+		<li>
+		<a href="photo_gallery_v3/photos/06.jpg" data-rel="lightcase:myCollection" title="Fall"><img src="photo_gallery_v3/photos/thumbnails/06.jpg" alt="Fall is coming, I love when the leaves on the trees start to change color.">
+		<p>Fall is coming, I love when the leaves on the trees start to change color.</p>
+		</a>
+		</li>
+		
+		<li>
+		<a href="photo_gallery_v3/photos/07.jpg" data-rel="lightcase:myCollection" title="Plantation"><img src="photo_gallery_v3/photos/thumbnails/07.jpg" alt="I drove past this plantation yesterday, everything is so green!">
+		<p>I drove past this plantation yesterday, everything is so green!</p>	
+		</a>
+		
+		</li>
+		
+		<li>
+		<a href="photo_gallery_v3/photos/08.jpg" data-rel="lightcase:myCollection" title="Dunes"><img src="photo_gallery_v3/photos/thumbnails/08.jpg" alt="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+		<p>My summer vacation to the Oregon Coast. I love the sandy dunes!</p>	
+		</a>
+		</li>
+		
+		
+		
+		
+		<li>
+		<a href="photo_gallery_v3/photos/09.jpg" data-rel="lightcase:myCollection" title="Countryside Lane"><img src="photo_gallery_v3/photos/thumbnails/09.jpg" alt="We enjoyed a quiet stroll down this countryside lane. ">
+		<p>We enjoyed a quiet stroll down this countryside lane.</p>	
+		</a>						
+		</li>	
+		
+		<li>
+		<a href="photo_gallery_v3/photos/10.jpg" data-rel="lightcase:myCollection" title="Sunset"><img src="photo_gallery_v3/photos/thumbnails/10.jpg" alt="Sunset at the coast! The sky turned a lovely shade of orange.">	
+		<p>Sunset at the coast! The sky turned a lovely shade of orange.</p>
+		</a>						
+		</li>	
+											
+		<li>
+		<a href="photo_gallery_v3/photos/11.jpg" data-rel="lightcase:myCollection" title="Cave"><img src="photo_gallery_v3/photos/thumbnails/11.jpg" alt="I did a tour of a cave today and the view of the landscape below was breathtaking.">	
+		<p>I did a tour of a cave today and the view of the landscape below was breathtaking.</p>
+		</a>										
+		</li>
+		
+		<li>
+		<a href="photo_gallery_v3/photos/12.jpg" data-rel="lightcase:myCollection" title="Bluebells"><img src="photo_gallery_v3/photos/thumbnails/12.jpg" alt="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">	
+		<p>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</p>
+		</a>
+		</li>
+		
+												
+
+	</ul>
+
+								
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+ 
+	
+  <script src="lightbox-plugin/lightcase-2.4.0/src/js/lightcase.js"></script>
+  <script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('a[data-rel^=lightcase]').lightcase();
+	});
+</script>
+<script type="text/javascript" src="Search Plugin/HideSeek-master/jquery.hideseek.min.js"></script>
+									
+</body>
+</html>
